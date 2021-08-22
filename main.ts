@@ -1,0 +1,10 @@
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 200)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 200)
+    basic.pause(1000)
+    basic.showIcon(IconNames.SmallHeart)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 100)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 0)
+    basic.pause(500)
+})
